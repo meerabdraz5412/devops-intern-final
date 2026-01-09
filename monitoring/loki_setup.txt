@@ -1,0 +1,5 @@
+Started Loki with Docker:
+docker run -d --name=loki -p 3100:3100 grafana/loki:2.9.0 -config.file=/etc/loki/local-config.yaml
+
+View logs from container:
+docker logs hello-devops
